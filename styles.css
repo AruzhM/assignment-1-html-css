@@ -1,61 +1,64 @@
 body {
+    margin 0;
+    font-family: Arial,sans-serif;
     background-color: #F5EFE6;
     color: #2E2925;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 30px;
 }
 
-.profile-card {
-    background-color: #fffaf3;
-    width: 320px;
-    padding: 25px;
-    margin: 30px auto;
-    text-align: center;
-    border: 2px solid #d8c7b5;
-    border-radius: 20px;
+header {
+background-color: #E8D8C3;
+color: #5C4033;
+text-align: center;
+border-bottom: 3px solid #D8C7B5;
+}
+
+naw {
+background-color: #5C4033
+padding: 15px;
+text-align center;
+}
+
+
+naw a {
+color: #FFF8Ef;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #E8C39E;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.sidebar{
+float: left;
+width: 25%;
+background-color: #FFFAF3;
+padding: 23px;
+border: 2px solid #D8C7B5;
+box-sizing: border-box;
+}
+
+.main-content {
+    float: right;
+    width: 75%;
+    background-color: #FFFAF3;
+    padding: 20px;
+    border: 2px solid #D8C7B5;
     box-sizing: border-box;
 }
-.profile-card img {
-    width: 250px;
-    max-width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 
-}
-header {
+footer {
+    clear: both;
     background-color: #E8D8C3;
-    padding: 25px;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    border: 2px solid #D8C7B5;
-}
-header h1 {
-    color: #5C4033;
-    margin-top: 0;
-}
-header h2 {
-    color: #765746;
-}
-
-section {
-    margin-bottom: 30px;
-}
-a {
-    color: #7A523A;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
-}
-
-a:hover {
-    color: #B06F45;
-    text-decoration: underline;
-}
-#about-title {
-    color: #6B4F3F;
+    padding 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-top: 2px solid #D8C7B5;
 }
