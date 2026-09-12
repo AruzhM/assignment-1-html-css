@@ -1,0 +1,82 @@
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #FFFAF3;
+}
+
+th, td {
+    border: 1px solid #D8C7B5;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #542F2A;
+    color: #F4E9D5;
+}
+
+tr:nth-child(even) {
+    background-color: #F3E8D7;
+}
+
+.highlight {
+    background-color: #D8B98A;
+    font-weight: bold;
+}
+
+.feedback-form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #FFFAF3;
+    border: 2px solid #D8C7B5;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#page-title {
+    text-align: center;
+    color: #542F2A;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #D8C7B5;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.feedback-form label {
+    font-weight: bold;
+}
+
+
+.feedback-form input[type="radio"] {
+    width: auto;
+    margin: 5px 5px 15px 0;
+}
+
+.feedback-form p {
+    font-weight: bold;
+}
+
+
+.feedback-form button {
+display: block;
+margin: 15px auto 0;
+background-color: #542F2A;
+color: #F4E9D5;
+border: none;
+padding: 12px 25px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.feedback-form button:hover {
+    background-color: #7A3E32;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4 - Table and Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="page-title">Student Grades and Feedback</h1>
+<table>
+    <tr>
+        <th>Student</th>
+        <th>Subject</th>
+        <th>Grade</th>
+    </tr>
+
+    <tr>
+        <td>Aruzhan</td>
+        <td rowspan="3">HTML & CSS</td>
+        <td>95</td>
+    </tr>
+
+    <tr class="highlight">
+        <td>Sara</td>
+        <td>96</td>
+    </tr>
+
+    <tr>
+        <td>Dana</td>
+        <td>92</td>
+    </tr>
+    <tr>
+        <td colspan="2">Average Grade</td>
+        <td>94</td>
+    </tr>
+
+</table>
+<h2>Feedback Form</h2>
+<form id="feedback-form" class="feedback-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="role">Role</label>
+    <select id="role" name="role">
+
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="guest">Guest</option>
+    </select>
+
+    <label>
+        <input type="radio" name="course" value="yes">
+        Yes
+        </label>
+
+    <label>
+        <input type="radio" name="course" value="no">
+        No
+    </label>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="5"></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

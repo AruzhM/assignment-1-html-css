@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: #E8DCC8;
+    color: #2F2520;
+    font-family: "Cormorant Garamond", serif;
+    padding: 20px 0 40px;
+}
+h1 {
+    text-aligin: center;
+    font-family: "Special Elite", monospase;
+    font-size: 56px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #542F2A;
+    margin: 40px 0 20px;
+}
+
+
+img {
+    display: block;
+    width: 420px;
+    max-width: 90%;
+    margin: 20px auto;
+    border: 12px solid #F4E9D5;
+    outline: 3px solid #542F2A;
+    box-shadow: 0 0 0 8px #C9AE82;
+}
+
+
+h2 {
+    text-aligin center;
+    font-size: 34px;
+    color: #542F2A;
+    border-bottom: 2px solid #B89A6A;
+    padding-bottom: 10px;
+     margin: 40px auto 20px;
+      width: 80%;
+}
+
+
+h3 {
+   font-family: "Special Elite", monospase;
+   font-size: 24px;
+    color: #542F2A;
+    border-left: 6px solid #B89A6A;
+    padding-left: 12px;
+    margin: 35px auto 15px;
+    width: 80%;
+}
+
+p {
+    width 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+
+ol {
+    width: 80%;
+    max-width: 900px;
+    margin: 15px auto;
+    padding-left: 45px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+ul {
+    width: 80%;
+    max-width: 900px;
+    margin: 15px auto;
+    padding-left: 45px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+a {
+    color: #7A3E32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B06F45;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #542F2A;
+    color: #F4E9D5;
+    border: 2px solid #B89A6A;
+    padding: 12px 25px;
+    font-family: "Special Elite", monospace;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #7A3E32;
+}
+
+
